@@ -1,0 +1,217 @@
+                   class 1
+
+Binary language hoti hai 
+lower language
+
+compiler and interprater
+
+1-compiler pora code ko execute kartahai 
+
+2-line by line aur left to right code ko  read karta hai
+
+javascript mai  2 function hota hai
+build in fun =  javascript na khud  bnai hai
+manual ya  user fun = ya hum khud bnata hai 
+define function fun
+
+
+
+Data type 
+
+1-    abc heloo world kuch bhi abc mai =  string
+2-    123         =  integer
+3-    1.2 1.4     =  float
+4-    true false  = boyan
+_$ abc etc  variable name sirf is sa aiga 123 sa nhi hoga 
+
+jab bhi string ho aur dosra integer ho to is ko concat kardaga 
+
+                                 class 2
+
+                         increment and decrement
+++ increment kahta hai 
+-- ko decrement kahta hai
+
+num++  post increment
+++num  pre increment
+
+num-- post decrement
+--num pre decrement
+
+                      class 3
+
+                    if statment
+if , else, else if, operators 
+
+==   value ko check kara ga
+===   value ka sath sath data type bhi check hogi
+
+&& ya hai end opperator
+dono side check kara ga
+
+
+|| OR koi ak bhi true hogi aga chala ga
+
+=  assigning opperator
+==  value ko match karai ga
+=== value ka sath data type bhi check hogi
+         conditional opperator
+<  less than 
+>  greater then
+
+<= less than equal to
+>= greater than equal to
+!= not equal to 
+
+                          class 4
+                           Array
+Array ki deffination hai
+collection off data
+
+
+[] scoire bracket  array ki pehchan hai
+
+index 0 sa start hota hai 
+length 1 sa start hogi
+
+array ka 6 metthod hota hai 
+push
+pop
+unshift
+shift
+splice  (0,0) koi element del nhi hoga
+slice
+
+push akhir sa value ko add kara ga
+
+pop akhir sa value ko del kara ga
+
+unshift start sa add karta hai
+
+shift start sa delete karta hai
+
+
+pehla vara bnai ga is ka bad 
+
+
+splice add karta hai kahi sa bhi aur delete bhi karta hai
+3 parametre use hota hai  (0,0,'haseeb') 
+
+slice copy karta hai
+
+                      class 5
+                      Loops
+for loop
+3 step hota hai 
+1-initillization
+2-condition
+3-increment and decrement
+
+                      clas 6
+                      Nasted loop
+2 loop hota hai 
+1=outer loop
+2=inner loop
+
+outer loop 1 11 21 31 41 51
+inner loop ander ki counting like 2345 12 13 14 15
+
+                     class 7
+
+
+array bna ka last ka index print kariaga
+document.write(arr.lastIndexOf('Islamabad'))  
+
+                
+first sa btaiga
+document.write(arr.IndexOf('Islamabad'))
+
+ceil aga lagata hai yani 72.2%  73 kardaga
+document.write(Math.round(per))
+
+
+floor aga nhi laka jata hai yani 72.9 ko 72 kardaga
+document.write(Math.floor(per))
+
+
+random number print kara ga
+document.write(Math.random() *10)
+
+
+
+                     class 8
+                     calculator
+
+               
+                   class 10
+                   stop watch
+
+1=setintervel
+ya ak callback function hai jo apna ander function chalata hai.
+ya  chalta hi rahta hai
+
+2=settimout
+time dana ka bad 1 martaba chala ga 
+
+3=clearintervel
+clearintervel setinterve ko roka ga 
+4=clear timeout
+clear timeout settimout ko roka ga 
+
+
+() Round braket
+{}curley braket
+[]squire braket
+
+
+
+
+
+
+
+
+
+
+
+
+
+        quiz
+
+if statment
+1-if (i==5)
+
+
+2-How to write an IF statement for executing some code if "i" is NOT equal to 5?
+
+if (i != 5) 
+
+3-How does a WHILE loop start?
+
+while (i <= 10)  
+
+4-How does a FOR loop start?
+
+for (i = 0; i <= 5; i++)  
+
+5-(10 > 9)
+
+true  
+
+
+6-Is JavaScript case-sensitive?
+true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
