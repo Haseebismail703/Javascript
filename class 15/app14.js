@@ -93,4 +93,20 @@
 
 
 
+// var arr = [2,32,34,3423,43,43,423,4234,2]
 
+// var filterofarr = arr.filter(function(value){
+//     return value > 150
+// })
+
+// document.write(filterofarr)
+
+
+
+
+
+// var foreach = [32,4,32,4233,423]
+
+// foreach.forEach(function(value){
+//     document.write(value,'<br>')
+// })
