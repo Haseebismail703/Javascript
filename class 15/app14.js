@@ -30,37 +30,33 @@
 
 
 // document.write(arrofobj[0].p_image)
+ 
+ 
+// var question = [
 
+//     {
+//         quetion1 : 'What is the sum of 2+2',
+//         ans1 : '2',
+//         ans2: '4',
+//         ans3: '6',
+//         ans4 : '5'
 
+//     },
 
+//     {
+//         quetion1 : 'What is the - of 2-2',
+//         ans1 : '1',
+//         ans2: '2',
+//         ans3: '5',
+//         ans4 : '0'
+//     }
+// ]
 
-
-
-var question = [
-
-    {
-        quetion1 : 'What is the sum of 2+2',
-        ans1 : '2',
-        ans2: '4',
-        ans3: '6',
-        ans4 : '5'
-
-    },
-
-    {
-        quetion1 : 'What is the - of 2-2',
-        ans1 : '1',
-        ans2: '2',
-        ans3: '5',
-        ans4 : '0'
-    }
-]
-
-var getque = document.getElementById('que')
-var getans1 = document.getElementById('ans1')
-var getans2 = document.getElementById('ans2')
-var getans3 = document.getElementById('ans3')
-var getans4 = document.getElementById('ans4')
+// var getque = document.getElementById('que')
+// var getans1 = document.getElementById('ans1')
+// var getans2 = document.getElementById('ans2')
+// var getans3 = document.getElementById('ans3')
+// var getans4 = document.getElementById('ans4')
 
 //  getque.innerHTML =   question[0].quetion1
 //  getans1.innerHTML =  question[0].ans1
@@ -68,28 +64,33 @@ var getans4 = document.getElementById('ans4')
 //  getans3.innerHTML =  question[0].ans3
 //  getans4.innerHTML =  question[0].ans4
  
- var index = 0 
+//  var index = 0 
 
 
 
 
- function nextQuestion(){
+//  function nextQuestion(){
 
-     if(index > question.length -1 ){
-        console.log('khatam')
-        document.write('youre quize score')
-     }
+//      if(index > question.length -1 ){
+//         console.log('khatam')
+//         document.write('youre quize score')
+//      }
 
-   else{
-    getque.innerHTML =   question[index].quetion1
-    getans1.innerHTML =  question[index].ans1
-    getans2.innerHTML =  question[index].ans2
-    getans3.innerHTML =  question[index].ans3
-    getans4.innerHTML =  question[index].ans4
-    index++
-   }
+//    else{
+//     getque.innerHTML =   question[index].quetion1
+//     getans1.innerHTML =  question[index].ans1
+//     getans2.innerHTML =  question[index].ans2
+//     getans3.innerHTML =  question[index].ans3
+//     getans4.innerHTML =  question[index].ans4
+//     index++
+//    }
    
- }
+//  }
 
 
- nextQuestion()
+//  nextQuestion()
+
+
+
+
+
