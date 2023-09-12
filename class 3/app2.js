@@ -300,3 +300,157 @@ function Grade(percentage)
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// chapter no 12 13 
+  
+
+// question no 1 
+
+// var a = 3
+
+// if(a==2){
+//     document.write('Number is divisible by 3')
+// }
+// else(
+//     document.write('Number is not divisible by 3')
+// )
+
+
+
+//  q no 3
+
+// var a = prompt('enter youre age')
+
+// if(a>18){
+//     document.write("old enough")
+// }
+// else(
+//     document.write("Too young"))
+
+    //    Q no 4
+
+
+    // var a = prompt('Enter a name')
+    // var b = 'Haseeb'
+    
+    // if(a==b){
+    //     document.write(' Haseeb')
+    // }
+    
+    //    Q no 7
+
+
+    // var a = +prompt('Enter a first no')
+    // var b = +prompt('Enter a second no')
+    // var c = prompt('Enter a operator ')
+
+
+
+    // if(c== '+' ){
+    //     alert(a+b)
+    // }
+    // else if(c== '-'){
+    //     alert (a-b)
+    // }
+    // else if(c== '*'){
+    //     alert (a*b)
+    // }
+    // else if(c== '/'){
+    //     alert (a/b)
+    // }
+    // else (
+    //     alert ('Invalid Operator')
+    //     )
+    
+
+
+    //  Q no 10 
+
+
+    // var a = prompt('Enter youre password')
+
+    // if(a=='12345' || a== '6789'){
+    //     alert('correct password')
+    // }
+    // else(
+    //     alert('not correct')
+    // )
+  
+    // Q no 11 
+
+    
+    // var a = prompt('Enter youre Name')
+
+    // if(a=== 'Haseeb'){
+    //     alert("Hello Haseeb")
+    // }
+    // else(
+    //     alert ("you are not Haseeb ")
+    //     )
+    
+
+    // Q no 12 
+
+
+    // var a = '13'
+
+
+    // if(a<18){
+    //     alert('Good Day')
+    // }
+        
+    //     else{
+    //         alert('Good Evening ')
+    // }
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
