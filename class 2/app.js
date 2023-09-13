@@ -347,6 +347,15 @@
 
         // var arr = ['Telenor','Jazz','ufone']
 
+//   Q no8 
+// var arr = ['Hsc','BSC','MBBS']
 
 
-       
+//   for(i=1; i<=10; i++){
+//     document.write(i,')',arr,"<br>")
+//   }
+
+
+
+
+
