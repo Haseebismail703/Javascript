@@ -108,3 +108,34 @@
 // document.write(b,'<br>',typeof(b))
 
 
+// Q no 11 
+
+
+// var a = prompt('Enter youre name')
+
+// document.write('User input'," ",a)
+// document.write('<br>')
+// document.write('upeer case',' ',a.toUpperCase())
+
+
+
+// Q no 12 
+
+
+// var a = prompt('Enter youre name')
+
+// document.write('User input'," ",a)
+// document.write('<br>')
+// document.write('lower case',' ',a.toLowerCase())
+
+
+
+// Q no 15
+
+// var a = '3';
+// var b = '3';
+// var x = 'The value of x is 5.'
+
+// if (a === '3' && b === '3') {
+//   document.write(x)
+// }
