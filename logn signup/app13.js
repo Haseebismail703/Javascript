@@ -115,15 +115,3 @@
                                    // new
 
 
-   var arr = []                                
-  function signin () {
-    var email = document.getElementById('lemail')
-    var pass = document.getElementById('lpass')
-    var obj = {
-        email : email.value,
-        pass : pass.value,
-
-    }
-    arr.push(obj)
-    localStorage.setItem('users',JSON.stringify(arr))
-  }                                
