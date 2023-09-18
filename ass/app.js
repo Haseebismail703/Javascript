@@ -139,3 +139,17 @@
 // if (a === '3' && b === '3') {
 //   document.write(x)
 // }
+
+
+
+// var a = '3';
+// var b = '3';
+// var x = 'The value of x is 5.'
+
+// if (a === '3' && b === '3') {
+//   document.write(x)
+// }
+
+
+
+
