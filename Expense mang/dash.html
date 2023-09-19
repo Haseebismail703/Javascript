@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <title>Expense Tracker App</title>
+</head>
+<body style="background-color: #6633FF;">
+    <h1 class="h">Expense Tracker App</h1>
+    <div class="input-section">
+        <label for="category-select" class=""><h3 class="h">Category:
+        </h3></label>
+        <select class="selected form-control" id="category-select">
+            <option value="null"selected disabled>Please select</option>
+            <option value="Cloth">Cloth</option>
+            <option value="Phone">Phone</option>
+            <option value="Laptop">Laptop</option>
+            <option value="Laptop">Chair</option>
+        </select>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="number" id="amount-input" class="form-control" aria-label="Amount (to the nearest dollar)">
+           
+          </div>
+
+        <!-- <label for="amount-input">Amount:</label>
+        <input type="number" id="amount-input"> -->
+
+
+
+
+        <label for="date-input"><h4 class="h">Date:</h4></label>
+        <input type="date" id="date-input" class="date form-control">
+        <!-- <button id="add-btn">Add</button> -->
+        <button type="button" id="add-btn" class="btn btn-outline-info">ADD NOW</button>
+
+    </div>
+    <div class="expenses-list">
+        <h2 class="h">Expenses List</h2>
+        <table border="1px" style="border-radius: 20px ;" >
+            
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            
+            <tbody id="expnese-table-body">
+
+            </tbody>
+            <!-- <tfoot> -->
+                <tr>
+                    <td class="tsd">Total:</td>
+                    <td class="tsd" id="total-amount"></td>
+                    <td class="tsd"></td>
+                    <td class="tsd"></td>
+                </tr>
+            <!-- </tfoot> -->
+        </table>
+    </div>
+    <script src="app.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+</html>

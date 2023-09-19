@@ -1,15 +1,17 @@
-body {
+ body {
     font-family: Arial, sans-serif;
     margin: 0;
+   
   }
   
-  h1, h2 {
+  h1,h2 {
     text-align: center;
+    text-decoration:wavy ;
   }
   
   .input-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -36,11 +38,14 @@ body {
   
   .expenses-list {
     margin: 20px;
+    border-radius: 20px;
+
   }
   
   table {
     width: 100%;
     border-collapse: collapse;
+    background-color: aqua;
   }
   
   th, td {
@@ -48,7 +53,9 @@ body {
     padding: 8px;
     text-align: left;
   }
-  
+  .tsd{
+    color:#0000CC;
+  }
   th {
     background-color: #4CAF50;
     color: white;
@@ -66,4 +73,47 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  .delete-btn:hover{
+    transform: scale(1.2);
+    transition: all ease-in ease-in-out 1s 1s;
+  }
+   
+
+
+
+
+  /* bootstrap  */
+
+
+  .input-group{
+    width: 300px !important;
+   margin-top:50px !important ;
+   border-color: aqua !important;
+   
+
+  }
+
+  .btn{
+    margin-top: 10px !important;
+  }
+  .btn:hover{
+    box-shadow: 3px 2px 30px green ;
+  }
+
+  .selected{
+    width:300px !important ;
+   height: 40px ;
+   border-radius: 20px;
+   text-align: center;
+   color: #0000CC;
+  }
+ 
+
+  .date{
+    border-radius: 10px !important;
+    width:300px !important;
+    height: 40px !important;
+  }
+  .h{
+    color: #CCCCFF;
+  }

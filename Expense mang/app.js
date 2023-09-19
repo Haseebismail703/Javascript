@@ -14,17 +14,42 @@ addBtn.addEventListener('click', function() {
     var date = dateInput.value;
 
     if (category === '') {
-        alert('Please select a category');
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'plese select categary',
+            // footer: '<a href="">Why do I have this issue?</a>'
+          })
         return;
     }
-    if (amount== '' || amount <=0 ) {
-        alert('Please enter a valid amoun')
+   else if (amount== '' || amount <=0 ) {
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'please enter amount',
+        // footer: '<a href="">Why do I have this issue?</a>'
+      })
         return;
     }
-    if(date === '') {
-        alert('Please select a date')
+    else if(date === '') {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'plase select date!',
+            // footer: '<a href="">Why do I have this issue?</a>'
+          })
         return;
     }
+    else if (category === 'null') {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'plese select categary!',
+            
+          })
+        return;
+    }
+  
 
 
     expenses.push({category, amount, date
