@@ -117,3 +117,116 @@
   .h{
     color: #CCCCFF;
   }
+
+
+
+
+
+         /* dashboard  */
+
+
+         .img{
+          margin-top:50px !important ;
+          border:1px solid white !important ;
+       }
+       .rounded-start{
+          border-radius: 10px;
+       }
+       
+       .abc{
+          text-align: center;
+          margin-top: 50px;
+       }
+       .abc1{
+          text-align: center;
+          margin-top: 30px; 
+       }
+       .img-fluid {
+          align-items: center !important;
+          margin-top: 30px !important;
+          border-radius: 20px !important;
+       }
+       .container{
+          margin-top: 20px ;
+       }
+       .bot{
+          font-weight: bolder;
+       }
+       .h3{
+          text-align: center !important;
+       }
+       
+       /* .rounded-start{
+          margin-left: 50px !important;
+          margin-top: 0.1px !important;
+       } */
+       .h-custom{
+          margin-top: 100px !important;
+       }
+       .logn{
+          margin-top:100px !important ;
+          color: rgb(54, 54, 100) !important;
+       }
+       .navbar{
+          
+          position: fixed !important;
+          top:0px ;
+          width: 100%;
+          z-index: 1000;
+          
+       }
+       .forget{
+          align-items: center !important;
+       }
+      
+       
+       .nav-link:hover{
+           background-color: aquamarine;
+           color: antiquewhite;
+           border-radius: 10px;
+       
+       }
+       .navbar-brand:hover{
+           transform: scale(1.2);
+           transition-duration: 2s;
+           
+       }
+       
+       .nav-link:hover{
+          background-color: aquamarine;
+          color: antiquewhite;
+          border-radius: 10px;
+       
+       }
+       .navbar-brand:hover{
+          transform: scale(1.2);
+          transition-duration: 2s;
+          
+       }
+       .zoo{
+          display: flex;
+          width: 100px;
+          position: fixed;
+          bottom: 0px;
+          
+          right: 0px;
+          z-index: 1000;
+          transform: scale(1);
+          transition: all;
+          transition-duration: 1s;
+          transition-delay: 1s;  
+          transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+       
+       }
+ .card-body1{
+  margin-right: 100px !important;
+ }
+ .dyive{
+  margin-top: 100px !important;
+  width: auto!important;
+  align-items: center !important;
+
+ } 
+ .text-center{
+  margin-top: 10px !important;
+ }
