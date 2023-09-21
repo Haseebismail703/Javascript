@@ -28,87 +28,66 @@
 
 // sessionStorage.setItem('first name','Haseeb')
 
-// function signup (){
-//     var email = document.getElementById('semail').value
-//     var pass = document.getElementById('spass').value
-//     localStorage.setItem('email',email)
-//     localStorage.setItem('pass',pass)
+function signup (){
+    var email = document.getElementById('semail').value
+    var pass = document.getElementById('spass').value
+    localStorage.setItem('email',email)
+    localStorage.setItem('pass',pass)
     
     
 
-//     if(email==''&& pass==''){
-//         alert('ksjd')
-//         location.href = './sign up.html'
-//     }
+    if(email==''&& pass==''){
+        alert('ksjd')
+        location.href = './sign up.html'
+    }
 
-//     else if    (localStorage.getItem('email')==email && localStorage.getItem('pass')==pass ){
-//         { location.href = './sign in.html'}
-//     }
+    else if    (localStorage.getItem('email')==email && localStorage.getItem('pass')==pass ){
+        { location.href = './sign in.html'}
+    }
     
-// }
+}
 
-// function signin(){
-//     var email = document.getElementById('lemail').value
-//     var pass = document.getElementById('lpass').value
-
-
-
-
-//     if(email==''&& pass==''){
-//         alert('ksjd')
-//         location.href = './sign up.html'
-//     }
+function signin(){
+    var email = document.getElementById('lemail').value
+    var pass = document.getElementById('lpass').value
 
 
 
 
+    if(email==''&& pass==''){
+        alert('ksjd')
+        location.href = './sign up.html'
+    }
 
-//   else if (localStorage.getItem('email')==email && localStorage.getItem('pass')==pass )
+
+
+
+
+  else if (localStorage.getItem('email')==email && localStorage.getItem('pass')==pass )
     
-//    { location.href = './das.html'}
+   { location.href = './das.html'}
 
-    // else if (email==='' && pass ==='' ){
-    //     alert('please enter Email or password')
-    //     // location.href = './sign up.html'
-    // }
+    else if (email==='' && pass ==='' ){
+        alert('please enter Email or password')
+        // location.href = './sign up.html'
+    }
         
     
-// else 
-// {    alert('invalid email and password')
+else 
+{    alert('invalid email and password')
    
-// }
+}
 
-// }
+}
 
    
-//     function signout(){
-//       location.href = './sign up.html'
-//     }
+    function signout(){
+      location.href = './sign up.html'
+    }
 
 
 
-// function signup (){
-//     var email = document.getElementById('semail').value
-//     var pass = document.getElementById('spass').value
-//     localStorage.setItem('email',email);
-//     localStorage.setItem('pass',pass);
-//     location.href = './sign in.html';
-// }
 
-// function signin(){
-//     var email = document.getElementById('lemail').value
-//     var pass = document.getElementById('lpass').value
-//     if (localStorage.getItem('email') === email && localStorage.getItem('pass') === pass) {
-//         location.href = './das.html';
-//     } else {
-//         alert('invalid email and password');
-//         location.href = './sign up.html';
-//     }
-// }
-
-// function signout(){
-//     location.href = './sign up.html';
-// }
 
 
 
