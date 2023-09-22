@@ -7,7 +7,9 @@ document.write(copy)
 
 
 
-
+  // var a = 00
+  // var v = kask
+  // var sd = ajs
 
 
 
