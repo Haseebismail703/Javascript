@@ -147,40 +147,68 @@ var questions = [
 ]
 
 
+// var ques = document.getElementById('ques')
+// var opt1 = document.getElementById('opt1')
+// var opt2 = document.getElementById('opt2')
+// var opt3 = document.getElementById('opt3')
+// var index = 0
+// var btn =document.getElementById('btn')
+
+// next()
+// function next(){
+//     var getoption = document.getElementsByName('option')
+//     for (var i =0; i<getoption.length; i++){
+//         getoption[i].checked = false
+//     }
+
+// btn.disabled =true
+//     if(index>questions.length -1){
+//         console.log('question khatam')
+//     }
+//     else{
+//         ques.innerText=questions[index].question
+//         opt1.innerText=questions[index].option1
+//         opt2.innerText=questions[index].option2
+//         opt3.innerText=questions[index].option3   
+//         index++ 
+//     }
+   
+
+// }
+
+// function clicked(){
+//     var btn =document.getElementById('btn')
+//     btn.disabled = false
+// }
+
+
+
 var ques = document.getElementById('ques')
 var opt1 = document.getElementById('opt1')
 var opt2 = document.getElementById('opt2')
 var opt3 = document.getElementById('opt3')
-var index = 0
-
-// ques.innerHTML=questions[index].question
-// opt1.innerHTML=questions[index].option1
-// opt2.innerHTML=questions[index].option2
-// opt3.innerHTML=questions[index].option3
+index = 0
+var btn = document.getElementById('btn')
 next()
 function next(){
-    var getoption = document.getElementsByName('option')
-    getoption.checked = false
+    var getoption =document.getElementsByName('option')
+    for(var i=0; i<getoption.length; i++ ){
+        getoption[i].checked= false
+    }
+    btn.disabled= true
     if(index>questions.length -1){
-        console.log('question khatam')
+        document.write('youre score')
     }
     else{
         ques.innerText=questions[index].question
         opt1.innerText=questions[index].option1
         opt2.innerText=questions[index].option2
-        opt3.innerText=questions[index].option3   
-        index++ 
+        opt3.innerText=questions[index].option3
+        index++
     }
-    // ques.innerText=questions[index].question
-    // opt1.innerText=questions[index].option1
-    // opt2.innerText=questions[index].option2
-    // opt3.innerText=questions[index].option3   
-    // index++
-
 }
 
 function clicked(){
-    var btn =document.getElementById('btn')
-    btn.disabled = false
+    var btn = document.getElementById('btn')
+    btn.disabled=false
 }
-
