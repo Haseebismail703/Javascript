@@ -153,8 +153,34 @@ var opt2 = document.getElementById('opt2')
 var opt3 = document.getElementById('opt3')
 var index = 0
 
-ques.innerHTML=questions[index].question
-opt1.innerHTML=questions[index].option1
-opt2.innerHTML=questions[index].option2
-opt3.innerHTML=questions[index].option3
+// ques.innerHTML=questions[index].question
+// opt1.innerHTML=questions[index].option1
+// opt2.innerHTML=questions[index].option2
+// opt3.innerHTML=questions[index].option3
+next()
+function next(){
+    var getoption = document.getElementsByName('option')
+    getoption.checked = false
+    if(index>questions.length -1){
+        console.log('question khatam')
+    }
+    else{
+        ques.innerText=questions[index].question
+        opt1.innerText=questions[index].option1
+        opt2.innerText=questions[index].option2
+        opt3.innerText=questions[index].option3   
+        index++ 
+    }
+    // ques.innerText=questions[index].question
+    // opt1.innerText=questions[index].option1
+    // opt2.innerText=questions[index].option2
+    // opt3.innerText=questions[index].option3   
+    // index++
+
+}
+
+function clicked(){
+    var btn =document.getElementById('btn')
+    btn.disabled = false
+}
 
