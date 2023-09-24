@@ -183,21 +183,65 @@ var questions = [
 
 
 
+// var ques = document.getElementById('ques')
+// var opt1 = document.getElementById('opt1')
+// var opt2 = document.getElementById('opt2')
+// var opt3 = document.getElementById('opt3')
+// index = 0
+// var btn = document.getElementById('btn')
+// next()
+// function next(){
+//     var getoption =document.getElementsByName('option')
+//     for(var i=0; i<getoption.length; i++ ){
+//         getoption[i].checked= false
+//     }
+//     btn.disabled= true
+//     if(index>questions.length -1){
+//         document.write('youre score')
+//     }
+//     else{
+//         ques.innerText=questions[index].question
+//         opt1.innerText=questions[index].option1
+//         opt2.innerText=questions[index].option2
+//         opt3.innerText=questions[index].option3
+//         index++
+//     }
+// }
+
+// function clicked(){
+//     var btn = document.getElementById('btn')
+//     btn.disabled=false
+// }
+
+
 var ques = document.getElementById('ques')
 var opt1 = document.getElementById('opt1')
 var opt2 = document.getElementById('opt2')
 var opt3 = document.getElementById('opt3')
-index = 0
 var btn = document.getElementById('btn')
+var index = 0
+score = 0
 next()
 function next(){
-    var getoption =document.getElementsByName('option')
-    for(var i=0; i<getoption.length; i++ ){
-        getoption[i].checked= false
+    var getoption = document.getElementsByName('option')
+    for(var i=0; i<getoption.length; i++){
+        if(getoption[i].checked){
+            var selectvalue = getoption[i].value 
+        var selectques = questions[index -1]['question']
+        var selectans = questions[index -1][`option${ selectvalue }`]
+        var correctOption = questions[index -1][`correctOption`] 
+        }
+       
+        if(selectans == correctOption){
+            score++
+        }
+        
+      getoption[i].checked = false
     }
     btn.disabled= true
     if(index>questions.length -1){
-        document.write('youre score')
+    
+   console.log('youre score is ' +((score /questions.length)*100).toFixed(2))
     }
     else{
         ques.innerText=questions[index].question
@@ -210,5 +254,5 @@ function next(){
 
 function clicked(){
     var btn = document.getElementById('btn')
-    btn.disabled=false
+    btn.disabled = false
 }
