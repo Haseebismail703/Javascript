@@ -48,27 +48,33 @@ function clicke(){
 
     var a = document.getElementById('inp')
     var li = document.createElement('li')
+    li.setAttribute('class','div2')
+
     var textli = document.createTextNode(a.value)
+    
+
     li.appendChild(textli)
     getul.appendChild(li)
     a.value = ''
-
+  
     //  del btn 
-    
+
     var Deletbtn = document.createElement('button')
     var textlidel = document.createTextNode('Delete')
     Deletbtn.appendChild(textlidel)
     li.appendChild(Deletbtn)
     Deletbtn.setAttribute('onclick','del(this)')
 
+    // css class 
+     Deletbtn.setAttribute('class', 'btn btn-outline-danger btn1 ')
     // edittext 
 
     var edits = document.createElement('button')
     var edittext = document.createTextNode('Edit')
     edits.appendChild(edittext)
     li.appendChild(edits)
-   edits.setAttribute('onclick','edit(this)')
-
+    edits.setAttribute('onclick','edit(this)')
+    edits.setAttribute('class','btn btn-outline-primary btn2')
 }
 
 function Deletall(){
