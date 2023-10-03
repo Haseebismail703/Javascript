@@ -89,3 +89,7 @@ function edit(e){
     var a = prompt('Enter value')
     e.parentNode.firstChild.nodeValue = a
 }
+// function edit(e){
+//     var a = prompt('Enter value')
+//     e.parentNode.firstChild.nodeValue = a
+// }
