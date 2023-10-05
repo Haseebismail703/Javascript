@@ -41,16 +41,16 @@
 //    getul.innerHTML=' '
 // }
 
-var getul = document.getElementById('ul')
+let getul = document.getElementById('ul')
 
 function clicke(){
 
 
-    var a = document.getElementById('inp')
-    var li = document.createElement('li')
+    let a = document.getElementById('inp')
+    let li = document.createElement('li')
     li.setAttribute('class','div2')
 
-    var textli = document.createTextNode(a.value)
+    let textli = document.createTextNode(a.value)
     
 
     li.appendChild(textli)
@@ -59,18 +59,18 @@ function clicke(){
   
     //  del btn 
 
-    var Deletbtn = document.createElement('button')
-    var textlidel = document.createTextNode('Delete')
+    let Deletbtn = document.createElement('button')
+    let textlidel = document.createTextNode('Delete')
     Deletbtn.appendChild(textlidel)
     li.appendChild(Deletbtn)
     Deletbtn.setAttribute('onclick','del(this)')
 
     // css class 
-     Deletbtn.setAttribute('class', 'btn btn-outline-danger btn1 ')
+     Deletbtn.setAttribute('class', 'btn btn-outline-danger btn1')
     // edittext 
 
-    var edits = document.createElement('button')
-    var edittext = document.createTextNode('Edit')
+    let edits = document.createElement('button')
+    let edittext = document.createTextNode('Edit')
     edits.appendChild(edittext)
     li.appendChild(edits)
     edits.setAttribute('onclick','edit(this)')
@@ -86,10 +86,10 @@ function del(e){
 }
 
 function edit(e){
-    var a = prompt('Enter value')
-    e.parentNode.firstChild.nodeValue = a
+    let a = prompt('Enter value')
+   e.parentNode.firstChild.nodeValue = a
 }
 // function edit(e){
-//     var a = prompt('Enter value')
+//     let a = prompt('Enter value')
 //     e.parentNode.firstChild.nodeValue = a
 // }

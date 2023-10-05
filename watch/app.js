@@ -38,3 +38,17 @@ else if (sec >= 60){
 }
 
 },1000)
+
+
+
+// Q no 17 
+
+// let date = new Date()
+// let getDate = date.getHours()
+
+// if(getDate>=12){
+//     alert('its PM')
+// }
+// else(
+//     alert(' its AM')
+// )
