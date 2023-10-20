@@ -25,7 +25,7 @@
 
     // let arr = 'REd'
 
-    // document.write(arr.charAt(3))
+    // document.write(arr.charAt(2))
 
 
 
