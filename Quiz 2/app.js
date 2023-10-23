@@ -81,8 +81,4 @@
 
     
   
-
-var a = 12.46456
-
-var b = a.toString(5)
-   console.log(b)
+  
