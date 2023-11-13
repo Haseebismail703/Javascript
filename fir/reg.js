@@ -82,7 +82,9 @@
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
 import { getAuth , createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
-import { getFirestore, collection, addDoc,getDocs } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js";
+// add data sa uthaya hai
+import { getFirestore, collection, addDoc , getDocs } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js";
+
   
 
 let btn = document.getElementById('btn')
@@ -104,9 +106,9 @@ btn.addEventListener('click',()=>{
   };
 
 //   Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
-  const db = getFirestore(app);
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
 
   createUserWithEmailAndPassword(auth, email.value, password.value)
   .then(async(userCredential) => {
@@ -115,26 +117,27 @@ btn.addEventListener('click',()=>{
     console.log(user)
 
 
+// add data  sa uthaya hai
+
     try {
-        const docRef = await addDoc(collection(db, "users"), {
-          first: email.value,
-          last: password.value,
-         
-        });
-        console.log("Document written with ID: ", docRef.id);
-      } catch (e) {
-        console.error("Error adding document: ", e);
-      }
+      const docRef = await addDoc(collection(db, "users"), {
+        first: email.value,
+        last: password.value,
+     
+      });
+      console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
 
-
-
+    }
+    
 
   })
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    console.log(errorMessage)
-    // ..
+    console.log(errorCode)
+    
   });
 
 })
@@ -142,6 +145,11 @@ btn.addEventListener('click',()=>{
 }
 
   
+  // add data 
+ 
+
+
+ 
 
 
 
@@ -150,16 +158,12 @@ let getbtn = document.getElementById('show')
 
 if(getbtn){
 
-getbtn.addEventListener('click',async() =>{
-    const querySnapshot = await getDocs(collection(db, "users"));
-    let getdiv = document.getElementById('getuser')
-    getdiv.innerHTML = `<div>${doc.data().first}</div>
-    <div>${doc.data().last}</div>`
-
-    querySnapshot.forEach((doc) => {
-      console.log(doc.data);
-    });
+getbtn.addEventListener('click',async()=>{
+  const querySnapshot = await getDocs(collection(db, "users"));
+querySnapshot.forEach((doc) => {
+  console.log(`${doc.id} => ${doc.data()}`);
+});
 })
-
 }
+
 
