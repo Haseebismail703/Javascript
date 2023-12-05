@@ -48,6 +48,8 @@ if , else, else if, operators
 
 && ya hai end opperator
 dono side check kara ga
+dono side agar true hogi to code run hoga
+
 
 
 || OR koi ak bhi true hogi aga chala ga
@@ -204,7 +206,7 @@ true
 
 
 
-
+0 is sunday 
 
 
 
