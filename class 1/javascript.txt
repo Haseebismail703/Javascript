@@ -211,9 +211,14 @@ true
 
 
 
+How do you find the number with the highest value of x and y?
+Math.max(x, y)  
+
+What is the correct JavaScript syntax for opening a new window called "w2" ?
+ans
+w2 = window.open("http://www.w3schools.com");  
 
 
-
-
-
+How can you detect the client's browser name?
+navigator.appName  
 
