@@ -166,6 +166,9 @@ clear timeout settimout ko roka ga
 []squire braket
 
 
+Math.round()  .5 ka bad change kara ga
+MAth.ceil()   aga la jaiga 
+Math.floor()  default value 
 
 
 
