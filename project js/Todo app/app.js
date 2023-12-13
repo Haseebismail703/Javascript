@@ -40,7 +40,6 @@
 // function Deletall() {
 //    getul.innerHTML=' '
 // }
-
 let getul = document.getElementById('ul')
 
 function clicke(){
