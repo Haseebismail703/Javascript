@@ -225,3 +225,25 @@ w2 = window.open("http://www.w3schools.com");
 How can you detect the client's browser name?
 navigator.appName  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
