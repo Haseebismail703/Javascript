@@ -1,4 +1,5 @@
 npm instal node module ko install kara gi package .json ko dakta hwa us ka ander kitni library hai 
-
-npx node module execute 
+npm node package module
+npx node module execute
+jsx javascript xml 
 
