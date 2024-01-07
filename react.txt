@@ -3,3 +3,7 @@ npm node package module
 npx node module execute
 jsx javascript xml 
 
+state component ka data manage karna ka lya ya object 
+
+jab bhi state update hogi hmara component rerander hoga 
+
