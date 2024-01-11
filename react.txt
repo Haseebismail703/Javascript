@@ -3,7 +3,7 @@ npm node package module
 npx node module execute
 jsx javascript xml 
 
-state component ka data manage karna ka lya ya object 
+useState component ka data maintaine  karna ka lya use karta hai 
 
 jab bhi state update hogi hmara component rerander hoga 
 
