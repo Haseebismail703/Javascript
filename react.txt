@@ -7,3 +7,9 @@ state component ka data manage karna ka lya ya object
 
 jab bhi state update hogi hmara component rerander hoga 
 
+jsx fragment <></>
+
+shift Alt  f
+props
+
+
