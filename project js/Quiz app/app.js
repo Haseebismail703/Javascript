@@ -226,7 +226,7 @@ function next(){
     var getoption = document.getElementsByName('option')
     for(var i=0; i<getoption.length; i++){
         if(getoption[i].checked){
-            var selectvalue = getoption[i].value 
+         var selectvalue = getoption[i].value 
         var selectques = questions[index -1]['question']
         var selectans = questions[index -1][`option${ selectvalue }`]
         var correctOption = questions[index -1][`correctOption`] 
@@ -235,7 +235,7 @@ function next(){
         if(selectans == correctOption){
             score++
         }
-        
+       
       getoption[i].checked = false
     }
     btn.disabled= true
