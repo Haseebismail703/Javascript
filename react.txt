@@ -9,7 +9,7 @@ jab bhi state update hogi hmara component rerander hoga
 
 jsx fragment <></>
 
-shift Alt  f
+
 shift Alt  f
 props
 
