@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Result from './Result';
 
-let score = 1;
+let score = 0;
 
 function Quiz() {
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [click, setClick] = useState(true);
+  const [count , setCount]=useState(1)
  
  
   useEffect(() => {
@@ -45,20 +46,21 @@ function Quiz() {
     setCurrentIndex(currentIndex + 1);
     setSelectedOption(null);
     setClick(true);
-    
+    selectedOption === questions[currentIndex].correctAnswer &&
+    score++
+    console.log(score);
+    setCount(count + 1)
   }
-
+  
   function restart() {
-    setCurrentIndex(0);
+  setCurrentIndex();
+  setCount(0)
+   
   }
 
   function check(opt) {
-    opt === questions[currentIndex].correctAnswer &&
-    console.log( score++);
     setClick(false);
-    console.log(opt);
-    
-
+    // console.log(opt);
   }
 
   return (
@@ -68,8 +70,11 @@ function Quiz() {
       ) : (
         <>
           <h1>Quiz App</h1>
+          <p>{score}</p>
           <ul>
-            <li>{questions[currentIndex].question.text}</li>
+            
+          <p>{count}</p><li>{questions[currentIndex].question.text}</li>
+            <li>{questions[currentIndex].correctAnswer}</li>
           </ul>
           {questions[currentIndex].option.map((data) => (
             <div key={data}>
