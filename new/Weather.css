@@ -1,0 +1,139 @@
+ body{
+  background: url('https://i.pinimg.com/originals/e9/cf/a7/e9cfa71f02ff8e3504410e831d883cd7.gif' ) no-repeat center;
+  background-size: cover;
+  background-color: #4ce3f7;
+  
+  
+
+} 
+
+
+
+.parent{
+  border: 2px solid black;
+  width: 410px;
+  height: 530px;
+  margin-top: 80px;
+  box-shadow: 1px 2px 54px 31px rgba(31, 186, 186, 0.4);
+  border-radius: 23px;
+}
+.div-1{
+  border: 2px solid black;
+  width: 100px;
+  height: 130px;
+  border: 6px solid rgba(136, 93, 241, 0.1);
+  border-radius: 22px;
+  
+}
+.div-2{
+  border: 2px solid black;
+  width: 100px;
+  height: 130px;
+  border: 6px solid rgba(136, 93, 241, 0.1);
+  border-radius: 22px;
+}
+.div-3{
+  border: 2px solid black;
+  width: 100px;
+  height: 130px;
+  border: 6px solid rgba(136, 93, 241, 0.1);
+  border-radius: 22px;
+}
+.div{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.input {
+  border-radius: 10px;
+  outline: 1px solid  #0e0bea;
+  border: 0;
+  background-color: #e2e2e2;
+  outline-offset: 3px;
+  padding: 10px 1rem;
+  transition: 0.25s;
+  height: 10px;
+  margin-top: 10px;
+  color: #0e0bea;
+}
+
+.input:focus {
+  background-color: #fff
+}
+
+.input:hover{
+
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+
+}
+
+@keyframes pulse512 {
+  0% {
+   box-shadow: 0 0 0 0 #1105ed66;
+  }
+ 
+  70% {
+   box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+ 
+  100% {
+   box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+ }
+
+
+.button {
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+  border-radius: 20px;
+  /* background-size: 100% auto; */
+  font-family: inherit;
+  /* font-size: 17px; */
+  padding: 0.6em 1.5em;
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+ }
+ 
+ .button:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  
+ }
+ 
+.img{
+  width: 64px;
+  height: 64px;
+}
+
+.div-3-3{
+  margin-top: 10px;
+}
+.time{
+  width: 100px;
+  height:40px ;
+  border: 6px solid rgba(136, 93, 241, 0.1);
+  border-radius: 22px;
+  
+}
+.p{
+  margin-top: -2px;
+  color: #0400ff;
+}
+.p1{
+  font-size: small;
+}
+.img-1{
+  margin-top: 20px;
+  width: 70px;
+  border: 6px solid rgba(136, 93, 241, 0.1);
+  border-radius: 22px;
+}
