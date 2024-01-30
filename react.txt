@@ -13,3 +13,5 @@ jsx fragment <></>
 shift Alt  f
 props
 
+shift Alt  f
+props
