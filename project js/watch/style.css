@@ -1,0 +1,24 @@
+h1{
+    display: inline-block;
+    font-size:200%;
+    width: 100px;
+   
+    
+      
+}
+.div{
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 300px;
+    display: flex;
+   justify-content: center;
+   color: aqua;
+   background-color: cornflowerblue;
+
+}
+.h1{
+    text-align: center;
+}
+

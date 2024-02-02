@@ -1,0 +1,232 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+   
+  }
+  
+  h1,h2 {
+    text-align: center;
+    text-decoration:wavy ;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-section button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .expenses-list {
+    margin: 20px;
+    border-radius: 20px;
+
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: aqua;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .tsd{
+    color:#0000CC;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .delete-btn:hover{
+    transform: scale(1.2);
+    transition: all ease-in ease-in-out 1s 1s;
+  }
+   
+
+
+
+
+  /* bootstrap  */
+
+
+  .input-group{
+    width: 300px !important;
+   margin-top:50px !important ;
+   border-color: aqua !important;
+   
+
+  }
+
+  .btn{
+    margin-top: 10px !important;
+  }
+  .btn:hover{
+    box-shadow: 3px 2px 30px green ;
+  }
+
+  .selected{
+    width:300px !important ;
+   height: 40px ;
+   border-radius: 20px;
+   text-align: center;
+   color: #0000CC;
+  }
+ 
+
+  .date{
+    border-radius: 10px !important;
+    width:300px !important;
+    height: 40px !important;
+  }
+  .h{
+    color: #CCCCFF;
+  }
+
+
+
+
+
+         /* dashboard  */
+
+
+         .img{
+          margin-top:50px !important ;
+          border:1px solid white !important ;
+       }
+       .rounded-start{
+          border-radius: 10px;
+       }
+       
+       .abc{
+          text-align: center;
+          margin-top: 50px;
+       }
+       .abc1{
+          text-align: center;
+          margin-top: 30px; 
+       }
+       .img-fluid {
+          align-items: center !important;
+          margin-top: 30px !important;
+          border-radius: 20px !important;
+       }
+       .container{
+          margin-top: 20px ;
+       }
+       .bot{
+          font-weight: bolder;
+       }
+       .h3{
+          text-align: center !important;
+       }
+       
+       /* .rounded-start{
+          margin-left: 50px !important;
+          margin-top: 0.1px !important;
+       } */
+       .h-custom{
+          margin-top: 100px !important;
+       }
+       .logn{
+          margin-top:100px !important ;
+          color: rgb(54, 54, 100) !important;
+       }
+       .navbar{
+          
+          position: fixed !important;
+          top:0px ;
+          width: 100%;
+          z-index: 1000;
+          
+       }
+       .forget{
+          align-items: center !important;
+       }
+      
+       
+       .nav-link:hover{
+           background-color: aquamarine;
+           color: antiquewhite;
+           border-radius: 10px;
+       
+       }
+       .navbar-brand:hover{
+           transform: scale(1.2);
+           transition-duration: 2s;
+           
+       }
+       
+       .nav-link:hover{
+          background-color: aquamarine;
+          color: antiquewhite;
+          border-radius: 10px;
+       
+       }
+       .navbar-brand:hover{
+          transform: scale(1.2);
+          transition-duration: 2s;
+          
+       }
+       .zoo{
+          display: flex;
+          width: 100px;
+          position: fixed;
+          bottom: 0px;
+          
+          right: 0px;
+          z-index: 1000;
+          transform: scale(1);
+          transition: all;
+          transition-duration: 1s;
+          transition-delay: 1s;  
+          transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+       
+       }
+ .card-body1{
+  margin-right: 100px !important;
+ }
+ .dyive{
+  margin-top: 100px !important;
+  width: auto!important;
+  align-items: center !important;
+
+ } 
+ .text-center{
+  margin-top: 10px !important;
+ }

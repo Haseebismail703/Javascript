@@ -1,0 +1,21 @@
+h1{
+    display: inline-block;
+    width: 100px;
+    color: rgb(52, 58, 58);
+}
+
+
+ #div{
+    margin-top: 70px;
+    border: 1px solid black;
+    width: 40%;
+    height: 500px;
+    border-radius:10px ;
+    background-color: aqua;
+    text-align: center;
+   
+}
+
+h1{
+    display: inline;
+}

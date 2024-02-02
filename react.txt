@@ -1,0 +1,15 @@
+npm instal node module ko install kara gi package .json ko dakta hwa us ka ander kitni library hai 
+npm node package module
+npx node module execute
+jsx javascript xml 
+
+useState component ka data maintaine  karna ka lya use karta hai 
+
+jab bhi state update hogi hmara component rerander hoga 
+
+jsx fragment <></>
+
+
+shift Alt  f
+props
+

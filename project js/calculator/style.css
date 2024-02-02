@@ -1,0 +1,33 @@
+/* .first{
+    border: 5px solid black;
+    width: 30%;
+    margin-top: 60px;
+    height:400px ;
+    border-radius: 10px;
+}
+.btn {
+   margin-left: 10px;
+   margin-top:5px ;
+   width: 50px;
+}
+.res{
+    width: 100px !important;
+}
+/* *{
+    background-color: aquamarine;
+} */
+/* #inp{
+    border-radius: 10px;
+    width: 300px;
+    border-color: cadetblue;
+    border-style: dotted;
+}
+.btn:hover{
+    transform: scale(0.9);
+    transition: all;
+   transition-duration: 1s;
+   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   
+}  */
+
+
